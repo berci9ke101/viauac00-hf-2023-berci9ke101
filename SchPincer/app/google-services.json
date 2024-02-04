@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075668067141",
+    "project_id": "schpincer-2ab2d",
+    "storage_bucket": "schpincer-2ab2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075668067141:android:eabb6befb3085e9ee5142c",
+        "android_client_info": {
+          "package_name": "hu.kszi2.android.schpincer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGaoGvJraTssywVT06D8B4r2UeqQ-MGgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

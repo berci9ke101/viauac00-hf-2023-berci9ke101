@@ -1,0 +1,56 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:title="@string/settings">
+
+    <PreferenceCategory app:title="Notification preferences">
+        <SwitchPreference
+            app:key="notifications"
+            app:defaultValue="false"
+            app:title="Enable message notifications" />
+
+        <ListPreference
+            app:defaultValue="30"
+            app:dialogTitle="Frequency of the notifications"
+            app:entries="@array/pref_notification_interval_entry"
+            app:entryValues="@array/pref_notification_interval"
+            app:key="notification_interval"
+            app:summary="Select how frequently you want to get notifications"
+            app:title="Frequency of the notifications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="API preferences">
+        <SwitchPreference
+            app:key="api"
+            app:defaultValue="false"
+            app:title="Enable API communication" />
+
+        <ListPreference
+            app:defaultValue="10"
+            app:dialogTitle="Frequency of the API communications"
+            app:entries="@array/pref_api_interval_entry"
+            app:entryValues="@array/pref_api_interval"
+            app:key="api_interval"
+            app:summary="Select how frequently you want to API to communicate"
+            app:title="Frequency of the API communications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Database preferences">
+        <Preference
+            app:key="clear"
+            app:summary="Clears the openings' database"
+            app:title="Clear database" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Legal">
+        <Preference
+            app:key="version"
+            app:summary="v1.0"
+            app:title="Version information" />
+
+        <Preference
+            app:key="copyright"
+            app:summary="© kszi2, All rights reserved."
+            app:title="Copyright information" />
+    </PreferenceCategory>
+</PreferenceScreen>

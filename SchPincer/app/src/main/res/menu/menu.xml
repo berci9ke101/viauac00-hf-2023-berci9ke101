@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_burger"
+        android:title="@string/more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_order"
+                android:icon="@drawable/ic_order"
+                android:title="@string/order" />
+            <item
+                android:id="@+id/menu_refresh"
+                android:icon="@drawable/ic_refresh"
+                android:title="@string/refresh" />
+            <item
+                android:id="@+id/menu_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+</menu>
